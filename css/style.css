@@ -27,3 +27,50 @@
 
 .tamImgFooter {
   width: 2rem; }
+
+.fondoGeneral {
+  background-color: #c7c5c5; }
+
+article {
+  background-color: purple; }
+  article h1 {
+    color: white;
+    text-align: center; }
+  article p {
+    font-size: 1,5rem;
+    text-align: center;
+    color: white; }
+
+aside {
+  background-color: whitesmoke;
+  text-align: center; }
+  aside a:hover {
+    color: orange; }
+
+.tarjetaHeader, .tarjeta--Header2 {
+  background-color: grey;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  margin: 0; }
+
+.tarjetaCuerpo, .tarjeta--Cuepo2 {
+  background-color: #ebe9e9;
+  text-align: justify;
+  font-size: 16px;
+  color: #5a5959;
+  padding: 10px; }
+
+.tarjeta--Header2 {
+  background-color: #008380; }
+
+.tarjeta--Cuepo2 {
+  background-color: bisque;
+  color: black; }
+
+.borde {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: purple;
+  padding: 0px;
+  margin: 0px; }

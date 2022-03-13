@@ -36,3 +36,90 @@
 .tamImgFooter{
     width: 2rem;
 }
+
+// Noticias//
+$fondoflex: rgb(199, 197, 197);
+$fondonoticias: purple;
+$textTitle:white;
+
+.fondoGeneral{
+    background-color: $fondoflex;
+}
+
+article{
+    background-color: $fondonoticias;
+    h1{
+        color: $textTitle;
+        text-align: center;
+    }
+    p{
+        font-size: 1,5rem;
+        text-align: center;
+        color: white;
+    }
+}
+
+aside{
+    background-color: whitesmoke;
+    text-align: center;
+    & a:hover{
+        color:orange;
+    }
+}
+
+$tarjetaHeader:(
+    fondo: grey,
+    alin: center,
+    tamTexto: 20px,
+    colorTexto: white,
+    margen: 0,
+    padd:0);
+
+$tarjetaCuerpo:(
+    fondo: rgb(235, 233, 233),
+    alin: justify,
+    tamTexto: 16px,
+    colorTexto: rgb(90, 89, 89),
+    margen: 0px,
+    padd:10px);
+
+
+.tarjetaHeader{
+    background-color: map-get($tarjetaHeader, fondo);
+    text-align: map-get($tarjetaHeader, alin);
+    font-size: map-get($tarjetaHeader, tamTexto);
+    color: map-get($tarjetaHeader,colorTexto);
+    margin: map-get($tarjetaHeader,margen);
+}
+
+.tarjetaCuerpo{
+    background-color: map-get($tarjetaCuerpo, fondo);
+    text-align: map-get($tarjetaCuerpo, alin);
+    font-size: map-get($tarjetaCuerpo, tamTexto);
+    color: map-get($tarjetaCuerpo,colorTexto);
+    padding: map-get($tarjetaCuerpo,padd);
+}
+
+.tarjeta--Header2{
+    @extend .tarjetaHeader;
+    background-color: #008380
+}
+
+.tarjeta--Cuepo2{
+    @extend .tarjetaCuerpo;
+    background-color: bisque;
+    color: black;
+}
+
+@mixin borde ($bradius, $type, $bcolor, $pad, $mar){
+    border-radius: $bradius ;
+    border-style: $type;
+    border-color: $bcolor;
+    padding: $pad;
+    margin: $mar;
+}
+
+.borde{
+    @include borde(10px, solid, purple, 0px, 0px)
+}
+
