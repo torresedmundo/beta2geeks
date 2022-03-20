@@ -18,7 +18,7 @@
 }
 
 .tamImgHeader{
-    width: 10rem;
+    width: 8rem;
 }
 
 .tamImgServ{
@@ -26,11 +26,11 @@
 }
 
 .tamImgCont{
-    width: 5rem;
+    width: 4rem;
 }
 
 .tamImgGtest{
-    width: 5rem;
+    width: 4rem;
 }
 
 .tamImgFooter{
@@ -41,6 +41,7 @@
 $fondoflex: rgb(199, 197, 197);
 $fondonoticias: purple;
 $textTitle:white;
+$colorfontnav: rgb(155,155,155);
 
 .fondoGeneral{
     background-color: $fondoflex;
@@ -123,3 +124,18 @@ $tarjetaCuerpo:(
     @include borde(10px, solid, purple, 0px, 0px)
 }
 
+$secondary:     white;
+
+.tamImgContMenu{
+            width: 28px;
+        }   
+
+@import "../bootstrap/scss/bootstrap";
+
+.offcanvas {
+    max-width: 13rem;
+    background-color: rgb(35,35,35);
+    color: aliceblue;
+  }
+
+ 

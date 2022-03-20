@@ -1,6 +1,0 @@
-Indicaciones de Aplicación de SEO
-1.- Cree los Meta descriotion para todos los html
-2.- Rada description se refiere al html
-3.- Cree los meta con los keywords para todos los html
-4.- Cada keywords se refiere al negocio y al contenido del html en especifico
-5.- Revise titulos y encabezados
