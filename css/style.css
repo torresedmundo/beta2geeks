@@ -1,23 +1,24 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: 'Roboto', sans-serif; }
 
 .fondoInicio {
-  background-image: url(../img/fondo.png);
-  background-position: center; }
+  background-color: #222222;
+  position: top;
+  background-attachment: fixed; }
 
 .indexNav {
   z-index: 999; }
-
-.fondoverde {
-  background-color: #008380;
-  color: white; }
 
 .tamImgHeader {
   width: 8rem; }
 
 .tamImgServ {
-  width: 7rem; }
+  width: 5rem; }
+
+.tamImgCte {
+  width: 30rem; }
 
 .tamImgCont {
   width: 4rem; }
@@ -28,55 +29,88 @@
 .tamImgFooter {
   width: 2rem; }
 
-.fondoGeneral {
-  background-color: #c7c5c5; }
-
-article {
-  background-color: purple; }
-  article h1, article .h1 {
-    color: white;
-    text-align: center; }
-  article p {
-    font-size: 1,5rem;
-    text-align: center;
-    color: white; }
-
-aside {
-  background-color: whitesmoke;
-  text-align: center; }
-  aside a:hover {
-    color: orange; }
-
-.tarjetaHeader, .tarjeta--Header2 {
-  background-color: grey;
-  text-align: center;
-  font-size: 20px;
-  color: white;
-  margin: 0; }
-
-.tarjetaCuerpo, .tarjeta--Cuepo2 {
-  background-color: #ebe9e9;
-  text-align: justify;
-  font-size: 16px;
-  color: #5a5959;
-  padding: 10px; }
-
-.tarjeta--Header2 {
-  background-color: #008380; }
-
-.tarjeta--Cuepo2 {
-  background-color: bisque;
-  color: black; }
-
-.borde {
-  border-radius: 10px;
-  border-style: solid;
-  border-color: purple;
-  padding: 0px;
-  margin: 0px; }
-
 .tamImgContMenu {
   width: 28px; }
+
+.fondoblanco {
+  background-color: white; }
+
+.textJusify {
+  text-align: justify; }
+
+.fondoServicios {
+  background-color: #343a34; }
+
+.tarjServicios {
+  border: solid;
+  border-color: grey;
+  border-radius: 20px;
+  padding-bottom: 5px;
+  background-color: #222222;
+  color: white; }
+
+.fondoEquipo {
+  background-color: #343a34; }
+
+.fondoContacto {
+  background-color: #222222;
+  color: white; }
+
+.fondoGtest {
+  background-color: #343a34;
+  color: white; }
+
+.fondoPagCont {
+  background-color: #343a34;
+  color: white; }
+
+.gap {
+  grid-gap: 20px; }
+
+.altobanner {
+  height: 13.5rem; }
+
+.paleta1 {
+  color: #F277A4; }
+
+.paleta2 {
+  color: #008380; }
+
+.paleta3 {
+  color: #192959; }
+
+.paleta4 {
+  color: #6E30F2; }
+
+.paleta5 {
+  color: #4129D9; }
+
+.paleta6 {
+  color: #503FBF; }
+
+.paleta7 {
+  color: #7162D9; }
+
+.paleta8 {
+  color: #3C74A6; }
+
+.paleta9 {
+  color: #6CD9B1; }
+
+.paleta10 {
+  color: #5ABFAD; }
+
+.paleta11 {
+  color: white; }
+
+.paleta12 {
+  color: #3b3b3b; }
+
+.paleta13 {
+  color: #00d4ff; }
+
+.paleta14 {
+  color: #ffff00; }
 
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
@@ -7892,4 +7926,8 @@ textarea.form-control-lg {
 .offcanvas {
   max-width: 13rem;
   background-color: #232323;
-  color: aliceblue; }
+  color: white; }
+
+@media (max-width: 600px) {
+  .ocultar {
+    display: none; } }
